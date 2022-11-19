@@ -7,7 +7,7 @@ form.onsubmit = (e) => {
   statusTxt.style.color = "#0D6EFD";
 
   let xhr = new XMLHttpRequest();
-  xhr.open("POST", "working-contact-form.vercel.app/message.php", true);
+  xhr.open("POST", "message.php", true);
   xhr.onload = () => {
     if (xhr.readyState === 4 && xhr.status === 200) {
       let response = xhr.response;
