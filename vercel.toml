@@ -1,7 +1,7 @@
 {
   "regions": ["hnd1"],
   "functions": {
-    "message.php": {
+    "./message.php": {
       "runtime": "vercel-php@0.3.1"
     }
   },
